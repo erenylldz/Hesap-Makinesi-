@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hesap Makinesi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <script src="script.js"></script>
+
+<div id="calculator">
+  <input type="text" id="display" disabled>
+  <br>
+  <button class="operator" onclick="sin()">sin</button>
+  <button class="operator" onclick="cos()">cos</button>
+  <button class="operator" onclick="tan()">tan</button>
+  <button class="operator" onclick="cot()">cot</button>
+  <button class="backspace" onclick="backspace()">←</button>
+  <br>
+  <button class="operator" onclick="reverse()">+/-</button>
+  <button class="operator" onclick="display('%')">%</button>
+  <button class="operator" onclick="sqrt()">√</button>
+  <button class="operator" onclick="factorial()">x!</button>
+  <button class="operator" onclick="x2()">x<sup>2</sup></button>
+  <button class="clear" onclick="cleardisplay()">C</button>
+  <br>
+  <button class="operator" onclick="onepartition()">1/x</button>
+  <button onclick="display('7')">7</button>
+  <button onclick="display('8')">8</button>
+  <button onclick="display('9')">9</button>
+  <button class="operator" onclick="display('(')">(</button>
+  <button class="operator" onclick="display(')')">)</button>
+  <br>
+  <button class="operator" onclick="log()">log</button>
+  <button onclick="display('4')">4</button>
+  <button onclick="display('5')">5</button>
+  <button onclick="display('6')">6</button>
+  <button class="operator" onclick="display('+')">+</button>
+  <button class="operator" onclick="display('-')">-</button>
+  <br>
+  <button class="operator" onclick="exp()">e<sup>x</sup></button>
+  <button onclick="display('1')">1</button>
+  <button onclick="display('2')">2</button>
+  <button onclick="display('3')">3</button>
+  <button class="operator" onclick="display('*')">*</button>
+  <button class="operator" onclick="display('/')">/</button>
+  <br>
+  <button class="operator" onclick="ln()">ln</button>
+  <button class="zero" onclick="display('0')">0</button>
+  <button class="dot" onclick="display('.')">.</button>
+  <button class="equals" onclick="calculate()">=</button>
+</div>
+</body>
+</html>
